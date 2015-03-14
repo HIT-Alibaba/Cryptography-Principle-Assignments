@@ -7,5 +7,4 @@
 
 * https://github.com/marcoszh/VigenereCipher
 * https://github.com/certaincen/Vigenere_cipher
-* https://github.com/zhaoguoquan94/Vigen-re-cipher/commits?author=zhaoguoquan94
-
+* https://github.com/zhaoguoquan94/Vigen-re-cipher
