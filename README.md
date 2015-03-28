@@ -3,7 +3,7 @@
 
 ### 1. 维吉尼亚密码
 
-参考仓库
+参考仓库：
 
 * https://github.com/marcoszh/VigenereCipher
 * https://github.com/certaincen/Vigenere_cipher
@@ -12,6 +12,8 @@
 
 ### 2. DES
 
+参考仓库：
+
 * https://github.com/LabiKyo/DES-Ruby
 * https://github.com/udaysagar2177/DES
-
+* https://github.com/tarequeh/DES/blob/master/des.c
