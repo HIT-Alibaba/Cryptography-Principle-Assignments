@@ -16,4 +16,4 @@
 
 * https://github.com/LabiKyo/DES-Ruby
 * https://github.com/udaysagar2177/DES
-* https://github.com/tarequeh/DES/blob/master/des.c
+* https://github.com/tarequeh/DES
