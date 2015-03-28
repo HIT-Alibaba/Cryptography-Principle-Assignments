@@ -9,7 +9,7 @@ def get_bits(plaintext):
 
 
 if __name__ == "__main__":
-    keys = generate_keys('huawenlan')
+    keys = generate_keys('lqjxliang')
 
 
     plaintext = str(raw_input('Enter the first message to be encrypted\n'))
@@ -21,7 +21,6 @@ if __name__ == "__main__":
     for i in range(0, len(text_bits), 64):
         DES(text_bits, i, (i + 64), keys, CIPHERS1)
 
-    print(CIPHERS1)
     text_bits = []
     plaintext = str(raw_input('Enter the second message to be encrypted\n'))
 

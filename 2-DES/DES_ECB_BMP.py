@@ -85,6 +85,6 @@ def decode(filename, keys):
 
 
 if __name__ == '__main__':
-    keys = generate_keys('huawenlan')
-    # encode('a.bmp', keys)
-    decode('encrypted_ecb.bmp', keys)
+    keys = generate_keys('lqjxliang')
+    encode('img.bmp', keys)
+    # decode('encrypted_ecb.bmp', keys)

@@ -100,6 +100,6 @@ def decode(filename, keys):
     print('the original image has been saved in decrypted_cbc.bmp')
 
 if __name__ == '__main__':
-    keys = generate_keys('huawenlan')
-    # encode('a.bmp', keys)
-    decode('encrypted_cbc.bmp', keys)
+    keys = generate_keys('lqjxliang')
+    encode('img.bmp', keys)
+    #decode('leena.bmp', keys)
