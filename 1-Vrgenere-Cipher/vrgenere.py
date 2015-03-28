@@ -13,31 +13,31 @@ RANDOM_CIPHER = None
 CIPHER_LENGTH = None
 
 NORMAL_TEXT_LETTER_FREQUENCY = {
-    'A': 0.08167, 
-    'B': 0.01492, 
-    'C': 0.02782, 
-    'D': 0.04253, 
-    'E': 0.12702, 
-    'F': 0.02228, 
-    'G': 0.02015, 
-    'H': 0.06094, 
-    'I': 0.06966, 
-    'J': 0.00153, 
-    'K': 0.00772, 
-    'L': 0.04025, 
-    'M': 0.02406, 
-    'N': 0.06749, 
-    'O': 0.07507, 
-    'P': 0.01929, 
-    'Q': 0.00095, 
-    'R': 0.05987, 
-    'S': 0.06327, 
-    'T': 0.09056, 
-    'U': 0.02758, 
-    'V': 0.00978, 
-    'W': 0.02360, 
-    'X': 0.00150, 
-    'Y':0.01974, 
+    'A': 0.08167,
+    'B': 0.01492,
+    'C': 0.02782,
+    'D': 0.04253,
+    'E': 0.12702,
+    'F': 0.02228,
+    'G': 0.02015,
+    'H': 0.06094,
+    'I': 0.06966,
+    'J': 0.00153,
+    'K': 0.00772,
+    'L': 0.04025,
+    'M': 0.02406,
+    'N': 0.06749,
+    'O': 0.07507,
+    'P': 0.01929,
+    'Q': 0.00095,
+    'R': 0.05987,
+    'S': 0.06327,
+    'T': 0.09056,
+    'U': 0.02758,
+    'V': 0.00978,
+    'W': 0.02360,
+    'X': 0.00150,
+    'Y': 0.01974,
     'Z': 0.00074
 }
 
@@ -133,6 +133,7 @@ def get_index_of_coincidence(text):
     below = text_len * (text_len - 1)
     return float(above) / below
 
+
 def get_index_of_coincidence_with_offset(text, offset=0):
     freqs = get_frequency(text)
     text_len = len(text)
@@ -145,6 +146,7 @@ def get_index_of_coincidence_with_offset(text, offset=0):
 
     below = text_len
     return float(above) / below
+
 
 def split_text(text, step, pos=0):
     l = list(text)
@@ -201,31 +203,23 @@ def ktest(text):
 
 
 if __name__ == "__main__":
-    """f = open('plaintext-small.txt')
+    f = open('plaintext-small.txt')
     plaintext = f.read()
     f.close()
     ciphertext = encode(plaintext, 7)
-    """
-    f2 = open('ciphertext.txt')
-    ciphertext = f2.read()
-    # print(RANDOM_CIPHER)
-    # f2.write(ciphertext)
+
+    f2 = open('ciphertext.txt', 'w')
+    print(RANDOM_CIPHER)
+    f2.write(ciphertext)
     f2.close()
     # ic_dicts = {}
     # ic_dicts[0] = get_index_of_coincidence(plaintext)
 
     # draw_bar_chart("IC", "Index of Coincidence with different n", ic_dicts)
-    # draw_frequency_bar_chart(ciphertext)
+    draw_frequency_bar_chart(ciphertext)
 
-    # ic = get_index_of_coincidence(ciphertext)
-
-
-    print(sum / 7)
-    print('\n')
-
-    t = split_text(ciphertext, 7, 0)
-    for i in range(26):
-        print(get_index_of_coincidence_with_offset(t, i))
+    ic = get_index_of_coincidence(ciphertext)
+    print(ic)
 """
     kp = 0.067
     kr = 0.0385
