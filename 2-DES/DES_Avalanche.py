@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
     for i in range(16):
         count = 0
-        for j in range(len(CIPHERS1)):
+        for j in range(64):
             if not CIPHERS2[i][j] == CIPHERS1[i][j]:
                 count += 1
         print("After " + str(i) + " round differnt bits is: " + str(count))
