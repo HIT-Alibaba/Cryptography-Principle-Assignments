@@ -1,19 +1,18 @@
 密码学原理作业-2012
 =================
 
+注：每个题目下面列出更多不同的仓库以供参考
+
 ### 1. 维吉尼亚密码
 
-参考仓库：
 
-* https://github.com/marcoszh/VigenereCipher
-* https://github.com/certaincen/Vigenere_cipher
-* https://github.com/zhaoguoquan94/Vigen-re-cipher
-* https://github.com/winlandiano/Cryptography-Verginia
+* https://github.com/marcoszh/VigenereCipher (JAVA)
+* https://github.com/zhaoguoquan94/Vigen-re-cipher (Python)
+* https://github.com/winlandiano/Cryptography-Verginia (Python)
 
 ### 2. DES
 
-参考仓库：
-
-* https://github.com/LabiKyo/DES-Ruby
-* https://github.com/udaysagar2177/DES
-* https://github.com/tarequeh/DES
+* https://github.com/LabiKyo/DES-Ruby (Ruby) 
+* https://github.com/udaysagar2177/DES (Python)
+* https://github.com/tarequeh/DES (C)
+* https://github.com/MaybeMercy/DesByJava (Java)
