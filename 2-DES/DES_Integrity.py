@@ -3,6 +3,7 @@ import random
 from DESCommon import DES, generate_keys
 from DESUtil import add_pads_if_necessary
 
+
 def main():
     keys = generate_keys("lqjxliang")
 
@@ -34,6 +35,7 @@ def main():
         rate.append(t / 256.0)
     print(count)
     print(rate)
+
 
 if __name__ == "__main__":
     main()

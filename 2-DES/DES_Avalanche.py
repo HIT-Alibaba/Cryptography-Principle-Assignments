@@ -8,9 +8,8 @@ def get_bits(plaintext):
     return text_bits
 
 
-if __name__ == "__main__":
+def main():
     keys = generate_keys('lqjxliang')
-
 
     plaintext = str(raw_input('Enter the first message to be encrypted\n'))
 
@@ -53,3 +52,6 @@ if __name__ == "__main__":
                 count += 1
         print("After " + str(i) + " round differnt bits is: " + str(count))
 
+
+if __name__ == "__main__":
+    main()

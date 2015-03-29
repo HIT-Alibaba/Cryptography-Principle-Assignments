@@ -13,7 +13,7 @@ column_dict = {'0000': 0, '0001': 1, '0010': 2, '0011': 3, '0100': 4, '0101': 5,
               '1001': 9, '1010': 10, '1011': 11, '1100': 12, '1101': 13, '1110': 14, '1111': 15}
 
 binary_list = []
-bin_to_text = {}
+bin_to_text_dict = {}
 
 # for calculation of 8-bit list for every character
 for n in range(256):
@@ -30,7 +30,7 @@ for i in binary_list:
     string = ''
     for j in i:
         string += str(j)
-    bin_to_text[string] = chr(k)
+    bin_to_text_dict[string] = chr(k)
     k += 1
 
 
@@ -63,7 +63,7 @@ def dec_to_bin(s):
 
 
 def bin_to_text(s):
-    return bin_to_text[s]
+    return bin_to_text_dict[s]
 
 
 def left_shift(s, times):
