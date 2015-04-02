@@ -16,5 +16,4 @@
 * https://github.com/LabiKyo/DES-Ruby (Ruby) 
 * https://github.com/udaysagar2177/DES (Python)
 * https://github.com/tarequeh/DES (C)
-* https://github.com/MaybeMercy/DesByJava (Java)
 * https://github.com/abbshr/Cryptography_DES_Analyze (C)
