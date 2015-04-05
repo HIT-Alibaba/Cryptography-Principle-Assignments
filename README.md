@@ -17,3 +17,4 @@
 * https://github.com/udaysagar2177/DES (Python)
 * https://github.com/tarequeh/DES (C)
 * https://github.com/abbshr/Cryptography_DES_Analyze (C)
+* https://github.com/MaybeMercy/DesByC (C)
