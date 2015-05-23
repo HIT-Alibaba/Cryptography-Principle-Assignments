@@ -25,4 +25,3 @@
 
 * https://github.com/HIT-Alibaba/Image-Enc-Secret-Share
 * https://github.com/HIT-Alibaba/SHSC
-* 
