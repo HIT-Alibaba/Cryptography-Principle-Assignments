@@ -18,3 +18,11 @@
 * https://github.com/tarequeh/DES (C)
 * https://github.com/abbshr/Cryptography_DES_Analyze (C)
 * https://github.com/MaybeMercy/DesByC (C)
+
+### 3. 
+
+第三个作业比较复杂，参考下面的仓库：
+
+* https://github.com/HIT-Alibaba/Image-Enc-Secret-Share
+* https://github.com/HIT-Alibaba/SHSC
+* 
