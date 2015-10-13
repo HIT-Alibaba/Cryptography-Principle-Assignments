@@ -10,6 +10,7 @@
 * https://github.com/zhaoguoquan94/Vigen-re-cipher (Python)
 * https://github.com/winlandiano/Cryptography-Verginia (Python)
 * https://github.com/sorenchiron/VigenereCipher (C++)
+* https://github.com/MaybeMercy/vigenereencoding (Java)
 
 ### 2. DES
 
@@ -17,7 +18,6 @@
 * https://github.com/udaysagar2177/DES (Python)
 * https://github.com/tarequeh/DES (C)
 * https://github.com/abbshr/Cryptography_DES_Analyze (C)
-* https://github.com/MaybeMercy/DesByC (C)
 
 ### 3. 
 
