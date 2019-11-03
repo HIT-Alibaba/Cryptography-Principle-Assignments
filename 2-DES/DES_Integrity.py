@@ -29,7 +29,7 @@ def main():
     for i in range(64):
         t = 0
         for ciphertext in ciphertext_list:
-            if ciphertext[i] == '0':
+            if ciphertext[i] == "0":
                 t += 1
         count.append(t)
         rate.append(t / 256.0)

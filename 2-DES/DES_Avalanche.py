@@ -1,6 +1,7 @@
 from DESCommon import DES, generate_keys
 from DESUtil import add_pads_if_necessary
 
+
 def get_bits(plaintext):
     text_bits = []
     for i in plaintext:
@@ -9,9 +10,9 @@ def get_bits(plaintext):
 
 
 def main():
-    keys = generate_keys('lqjxliang')
+    keys = generate_keys("lqjxliang")
 
-    plaintext = str(raw_input('Enter the first message to be encrypted\n'))
+    plaintext = str(raw_input("Enter the first message to be encrypted\n"))
 
     text_bits = get_bits(plaintext)
     text_bits = add_pads_if_necessary(text_bits)
@@ -21,7 +22,7 @@ def main():
         DES(text_bits, i, (i + 64), keys, CIPHERS1)
 
     text_bits = []
-    plaintext = str(raw_input('Enter the second message to be encrypted\n'))
+    plaintext = str(raw_input("Enter the second message to be encrypted\n"))
 
     text_bits = get_bits(plaintext)
     text_bits = add_pads_if_necessary(text_bits)
@@ -43,7 +44,6 @@ def main():
         for each in CIPHERS2[i]:
             ans += str(each)
         print("The cipher after " + str(i) + " rounds is " + ans)
-
 
     for i in range(16):
         count = 0

@@ -42,7 +42,7 @@ def s_box(block):
     """
     for i in range(0, 8):
         row = str(block[i][0]) + str(block[i][-1])
-        column = ''
+        column = ""
         for j in range(1, 5):
             column += str(block[i][j])
         a = 16 * get_row(row)
@@ -104,7 +104,9 @@ def DES(text_bits, start, end, keys, CIPHERS_FOR_EACH_ROUND=None):
     left_block = block[0:32]
     right_block = block[32:64]
 
-    left_block, right_block = iterate(left_block, right_block, keys, CIPHERS_FOR_EACH_ROUND)
+    left_block, right_block = iterate(
+        left_block, right_block, keys, CIPHERS_FOR_EACH_ROUND
+    )
 
     block = []
     block.extend(right_block)
@@ -112,7 +114,7 @@ def DES(text_bits, start, end, keys, CIPHERS_FOR_EACH_ROUND=None):
 
     block = apply_FP(block)
 
-    cipher_block = ''
+    cipher_block = ""
     for i in block:
         cipher_block += str(i)
     return cipher_block
