@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import string
 import random
@@ -190,7 +190,7 @@ def findsubs(text, l):
             if i + l < len(text) and text[i : i + l + 1] == text[f : f + l + 1]:
                 continue
 
-            print "%-10s %3d %s" % (target, found + l, str(factors(found + l)))
+            print("%-10s %3d %s" % (target, found + l, str(factors(found + l))))
 
 
 def ktest(text):
